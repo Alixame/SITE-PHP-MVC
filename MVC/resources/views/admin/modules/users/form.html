@@ -1,0 +1,27 @@
+<h1>{{title}}</h1>
+<hr>
+<a href="{{URL}}/admin/users"><button type="button" class="btn btn-warning">Voltar</button></a>
+<hr>
+{{status}}
+<form method="POST">
+    <div class="form-group">
+        <label>Nome</label>
+        <input type="text" name="nome" id="nome" class="form-control"  value="{{nome}}"  required>
+    </div>
+
+    <div class="form-group my-3">
+        <label>E-mail</label>
+        <input type="email" name="email" id="email" class="form-control"  value="{{email}}"  required>
+    </div>
+    <div class="form-group my-3">
+        <label>Senha</label>
+        <input type="password" name="senha" id="senha" class="form-control" value="{{senha}}"   required>
+    </div>
+
+    <div class="form-group">
+       <button type="submit" class="btn btn-success">Enviar</button>
+    </div>
+
+
+
+</form>
